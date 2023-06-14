@@ -1,5 +1,11 @@
 # enum-code
 
+[![Crates.io](https://img.shields.io/crates/v/enum-code)](https://crates.io/crates/enum-code)
+[![docs.rs](https://img.shields.io/docsrs/enum-code/latest)](https://docs.rs/enum-code)
+[![GitHub](https://img.shields.io/github/license/kunduin/enum-code)](https://github.com/Kunduin/enum-code)
+
+
+
 ## Introduction
 
 `enum-code` is a `derive macro` for `enum` types. This library generates code that associates error codes with error types. It can be used in conjunction with the `thiserror` crate. Developers can quickly retrieve error codes by calling the `get_code` method.
