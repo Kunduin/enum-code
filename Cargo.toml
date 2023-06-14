@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 categories = ["rust-patterns"]
 authors = ["Kunduin <kunduin@outlook.com>"]
+documentation = "https://docs.rs/enum-code"
 description = "derive(Code) simplifies error handling by providing an easy-to-use enumeration of error codes"
 keywords = ["error", "error-handling", "derive", "enum"]
 license = "MIT"
