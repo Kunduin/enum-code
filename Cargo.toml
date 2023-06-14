@@ -1,0 +1,19 @@
+[package]
+name = "enum-code"
+version = "0.1.0"
+edition = "2021"
+categories = ["rust-patterns"]
+authors = ["Kunduin <kunduin@outlook.com>"]
+description = "derive(Code) simplifies error handling by providing an easy-to-use enumeration of error codes"
+keywords = ["error", "error-handling", "derive", "enum"]
+license = "MIT"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "^1"
+syn = "^2"
