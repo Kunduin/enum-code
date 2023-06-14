@@ -1,6 +1,6 @@
 [package]
 name = "enum-code"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 categories = ["rust-patterns"]
 authors = ["Kunduin <kunduin@outlook.com>"]
